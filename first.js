@@ -5,8 +5,8 @@ class CultivationFieldFormManager {
     this.editContainers = this.form.querySelectorAll(
       ".js-cultivation-field-edit"
     );
-    this.showContainers = this.form.querySelectorAll(
-      ".js-cultivation-field-show"
+    this.showContainers1 = this.form.querySelectorAll(
+      ".js-cultivation-field-sho1"
     );
 
     this.longitudeInput = document.getElementById(
