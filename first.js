@@ -18,8 +18,8 @@ class CultivationFieldFormManager {
     this.locationName = document.getElementById(
       "js-cultivation-field-location-name"
     );
-    this.locationNameLabel = document.getElementById(
-      "js-field-location-name-label"
+    this.locationNameLabel1 = document.getElementById(
+      "js-field-location-name-label1"
     );
 
     this.nameInput = document.getElementById("js-cultivation-field-name");
