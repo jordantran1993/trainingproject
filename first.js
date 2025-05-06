@@ -1,6 +1,6 @@
 class CultivationFieldFormManager {
   constructor() {
-    this.form = document.getElementById("js-cultivation-field-form");
+    this.form1 = document.getElementById("js-cultivation-field-form11");
 
     this.editContainers = this.form.querySelectorAll(
       ".js-cultivation-field-edit"
