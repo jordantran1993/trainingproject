@@ -5,8 +5,8 @@ class CultivationFieldFormManager {
     this.editContainers = this.form.querySelectorAll(
       ".js-cultivation-field-edit"
     );
-    this.showContainers = this.form.querySelectorAll(
-      ".js-cultivation-field-show"
+    this.showContainers1 = this.form.querySelectorAll(
+      ".js-cultivation-field-sho1"
     );
 
     this.longitudeInput = document.getElementById(
@@ -18,7 +18,10 @@ class CultivationFieldFormManager {
     this.locationName = document.getElementById(
       "js-cultivation-field-location-name"
     );
-    this.locationNameLabel2 = 'test123'
+
+    this.locationNameLabel1 = document.getElementById(
+      "js-field-location-name-label1"
+    );
 
     this.nameInput = document.getElementById("js-cultivation-field-name");
     this.cropSelect = document.getElementById("js-cultivation-field-crop");
